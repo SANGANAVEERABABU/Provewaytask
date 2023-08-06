@@ -1,0 +1,30 @@
+Proveway Screening Qusetions 
+
+1. What frontend technologies and frameworks have you worked on?
+  
+	 * the frontend technologies that i have worked are HTML,CSS.
+	 * Javascript,Angular{only Frontend integration},Jquery,Bootstrap, are the Frontend frameworks that i have worked.
+
+2. Have you ever worked with Shopify or any other e-commerce platforms, or do you have any experience with them?
+	
+	* Yes, I have some work experience on eCommerce site
+
+
+3. On a scale of 1 to 10, how would you rate your proficiency in HTML, CSS, and JavaScript?
+	
+	* I would rate my proficiency in HTML On a scale of 1 to 10, - 10/10
+	* I would rate my proficiency in CSS On a scale of 1 to 10, - 10/10
+	* I would rate my proficiency in Javascript On a scale of 1 to 10, - 7.5/10
+
+4. Do you find any specific browser more challenging to work with than others, and how do you resolve browser compatibility issues?
+	
+	* Yes, i have faced issues with internet explorer and i will fix those issues CSS Hacks.
+
+5. Have you worked on projects where you had complete ownership of the project?
+	
+	* NO I didnot get chance to get ownership of the project,
+
+
+6. Have you worked with any version control system like Git?
+	
+	* Yes, i  have worked with the version controll system SVN.
