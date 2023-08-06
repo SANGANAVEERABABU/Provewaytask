@@ -13,7 +13,6 @@ div {
     margin-right: auto;
     padding-top: 40px;
 }
-
 h1 {
     color: #007F61;
     font-size: 16px;
@@ -31,7 +30,6 @@ h1::after{
     display: inline-block;
     vertical-align: middle;
     margin: 0 5px;
-   
 }
 .grey-border-box {
     padding: 20px;
@@ -42,14 +40,12 @@ h1::after{
 .row {
     display: flex;
     flex-grow: 1;
-   
 }
 .product-details strong {
     display: block;
 }
 .product-details  {
     align-items: center;
-   
 }
 .col-10 {
     width: 10%;
@@ -123,4 +119,14 @@ h1::after{
 }
 .add-btn .fa-plus {
     font-size: 12px;
+}
+.grey-border-box .product-features {
+	display:none;
+}
+.product .product-features {
+	display:block;
+}
+.product {
+    background-color: #F4FBF9;
+    border-color:#007F61;
 }
