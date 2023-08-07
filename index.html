@@ -14,7 +14,7 @@
         <div class="grey-border-box product" id="product1" onclick="openCity(this)">
             <div class="row product-details">
                 <div class="col-10">
-                    <input type="radio"/>
+                    <input type="radio" name="product1"/>
                 </div>
                 <div class="col-40">1 Pair<strong>DKK 195.00</strong></div>
                 <div class="col-20"></div>
@@ -159,16 +159,22 @@
         <button class="add-btn"><i class="fa fa-plus" aria-hidden="true"></i> Add to Cart</button>
         <p class="text-right "><small> &copy; <i>Powered By Pumper</i></small></p>
     </div>
-	<script>
-		const productBox = document.getElementsByClassName("grey-border-box");
-		
-		 function openCity(element){
-			for (i = 0; i < productBox.length; i++) {
-			productBox[i].classList.remove("product");
-		  }
-		var parent = element;
-			parent.classList.add("product");
-		 }
-	</script>
+    <script>
+         const productBoxes = document.getElementsByClassName("grey-border-box");
+             function openCity(element) {
+                 for (let i = 0; i < productBoxes.length; i++) {
+                productBoxes[i].classList.remove("product");
+                const radioButton = productBoxes[i].querySelector("input[type='radio']");
+                if (radioButton) {
+                    radioButton.checked = false;
+                }
+            }
+            element.classList.add("product");
+            const selectedRadioButton = element.querySelector("input[type='radio']");
+            if (selectedRadioButton) {
+                selectedRadioButton.checked = true;
+            }
+        }
+    </script>
 </body>
 </html>
